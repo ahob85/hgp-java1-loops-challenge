@@ -103,7 +103,7 @@ public class LoopsChallengeTest
     }
 
     @Test
-    public void testXyBalance() {
+    public void xyBalanceTest() {
         assertEquals(true, LoopsChallenge.xyBalance("aaxbby"));
         assertEquals(false, LoopsChallenge.xyBalance("aaxbb"));
         assertEquals(false, LoopsChallenge.xyBalance("yaaxbb"));
